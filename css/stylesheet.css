@@ -46,7 +46,7 @@ table {
 }
 
 * {
- border: 1px solid rgba(0, 0, 0, 0.3);
+ border: 0px solid rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -67,7 +67,7 @@ padding: 20px;
 font-weight: bold;
 }
 
-.topleft {
+.navigation {
   top: 40px;
   left: 60px;
   position: absolute;
@@ -76,10 +76,9 @@ font-weight: bold;
   font-style: normal;
 }
 
-.topleft li.headerbottom {
-  margin-top: 10px;
+.navigation a{
+	margin: 0px 10px;
 }
-
 .topright {
 	font-family: 'Open Sans', Helvetica, sans-serif;
   color: rgba(200, 40, 65, 1);
@@ -88,12 +87,13 @@ font-weight: bold;
   right: 60px;
 }
 
-.topright p.headertop{
+.topright span.headertop{
   text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 0.2em;
   padding-left: 50px;
   font-size: 20px;
+	display: block;
 
 }
 
@@ -102,42 +102,29 @@ font-weight: bold;
 
 }
 
+.works .wrap {
+margin: 0px 0px;
+}
 .works {
 	box-sizing: border-box;
 	width: 1000px;
+  margin: auto;
 	margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.workssecond {
-	box-sizing: border-box;
-	width: 1000px;
-	margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-	clear: both;
+	position: relative;
+	background:#EEEEEE;
 }
 
 .works img {
-  padding: 10px;
-	border-radius: 50%;
-	margin-bottom: 30px;
+	display: block;
+	margin-bottom: 10px;
 }
 
-.left {
+.position {
 	float: left;
-	width: auto;
+	margin: 0px 10px 20px 10px;
 
 }
 
-.right {
-	float: right;
-	width: auto;
+.null {
+clear: both;
 }
-
- ul {
-	width: 100%;
-	 text-align: center;
-}
-/*
